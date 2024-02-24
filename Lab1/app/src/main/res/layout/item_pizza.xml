@@ -10,7 +10,7 @@
         android:id="@+id/image_view"
         android:layout_width="155dp"
         android:layout_marginTop="6dp"
-        android:layout_marginStart="17dp"
+        android:layout_marginStart="20dp"
 
         android:layout_height="160dp"
         android:src="@drawable/baseline_access_time_filled_24">
@@ -41,6 +41,7 @@
             tools:text="Мясо говядины, соус ранч, сыр моцарелла, сладкий перец, томаты, красный лук и фирменный томатный соус"
             android:textSize="14dp"
             android:paddingTop="4dp"
+            android:layout_marginEnd="8dp"
             android:fontFamily="sans-serif">
         </TextView>
 

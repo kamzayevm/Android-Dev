@@ -4,12 +4,13 @@ import com.example.lab1.R
 
 object PizzaDataSource {
     val pizzalist = arrayListOf<Pizza>(
+
         Pizza(
-            name = "Вау! Кебаб",
-            isNew = true,
-            description = "Мясо говядины, соус ранч, сыр моцарелла, сладкий перец, томаты, красный лук и фирменный томатный соус",
-            price = 2900,
-            imageRes = R.drawable.kebab
+            name = "Пицца Жюльен",
+            isNew = false,
+            description = "Цыпленок, шампиньоны, ароматный грибной соус, лук, сухой чеснок, моцарелла, смесь сыров чеддер и пармезан, фирменный соус альфредо",
+            price = 2700,
+            imageRes = R.drawable.julien
         ),
         Pizza(
             name = "Пепперони с грибами",
@@ -26,11 +27,11 @@ object PizzaDataSource {
             imageRes = R.drawable.vet_cuc
         ),
         Pizza(
-            name = "Пицца Жюльен",
-            isNew = false,
-            description = "Цыпленок, шампиньоны, ароматный грибной соус, лук, сухой чеснок, моцарелла, смесь сыров чеддер и пармезан, фирменный соус альфредо",
-            price = 2700,
-            imageRes = R.drawable.julien
+            name = "Вау! Кебаб",
+            isNew = true,
+            description = "Мясо говядины, соус ранч, сыр моцарелла, сладкий перец, томаты, красный лук и фирменный томатный соус",
+            price = 2900,
+            imageRes = R.drawable.kebab
         ),
         Pizza(
             name = "Сырная",
@@ -53,13 +54,7 @@ object PizzaDataSource {
             price = 2100,
             imageRes = R.drawable.double_chicken
         ),
-        Pizza(
-            name = "Чоризо фреш",
-            isNew = false,
-            description = "Пикантные колбаски чоризо из цыпленка, зеленый перец, моцарелла, томатный соус",
-            price = 1900,
-            imageRes = R.drawable.chorizo_fresh
-        ),
+
         Pizza(
             name = "Ветчина и сыр",
             isNew = false,
@@ -67,12 +62,13 @@ object PizzaDataSource {
             price = 2000,
             imageRes = R.drawable.vet_cheese
         ),
+
         Pizza(
-            name = "Карбонара",
-            isNew = true,
-            description = "Ветчина из цыпленка, сыры чеддер и пармезан, томаты, красный лучок, моцарелла, соус альфредо, чеснок и итальянские травы",
+            name = "Чоризо фреш",
+            isNew = false,
+            description = "Пикантные колбаски чоризо из цыпленка, зеленый перец, моцарелла, томатный соус",
             price = 1900,
-            imageRes = R.drawable.carbonaro
+            imageRes = R.drawable.chorizo_fresh
         ),
         Pizza(
             name = "Сырный цыпленок",
@@ -87,6 +83,13 @@ object PizzaDataSource {
             description = "Сыр моцарелла, ветчина, лук красный, томаты, маринованные огурчики, соус Бургер, чеснок, томатный соус",
             price = 2700,
             imageRes = R.drawable.burger_pizza
+        ),
+        Pizza(
+            name = "Карбонара",
+            isNew = true,
+            description = "Ветчина из цыпленка, сыры чеддер и пармезан, томаты, красный лучок, моцарелла, соус альфредо, чеснок и итальянские травы",
+            price = 1900,
+            imageRes = R.drawable.carbonaro
         ),
         Pizza(
             name = "Додо",
